@@ -19,7 +19,7 @@ I hope you're doing well. My name is Rakesh Peddamallu, and I'm reaching out to 
 
 I have 3 years of experience in backend development, specializing in microservices, cloud security UI, and storage solutions. At Juniper Networks, I contributed to cloud security and on-prem storage solutions, improving system efficiency and reliability.
 
-I am actively looking for new opportunities and would love to discuss how my skills align with open roles at {company}. My expected base CTC is 25 LPA minimum. Please find my resume attached for your reference.
+I am actively looking for new opportunities and would love to discuss how my skills align with open roles at {company}. My expected base salary is 25 LPA and open for negotiation. Please find my resume attached for your reference.
 
 Would it be possible to schedule a quick call to discuss this further? You can reach me at +91 6303665574 at your convenience.
 

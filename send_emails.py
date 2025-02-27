@@ -13,21 +13,21 @@ df = pd.read_excel("hr_contacts.xlsx")
 # Email content
 SUBJECT = "Could You Please Help Me with a Backend Referral? "  
 BODY_TEMPLATE = """\
-Dear {name},
+Hi {name},
 
-I hope you're doing well. I'm reaching out to explore any job opportunities at {company} for a Backend Developer role.
+I hope you're doing well. I'm reaching out to explore potential Backend Developer opportunities at {company}.
 
-I have 3 years of experience in backend development, including microservices, cloud security UI, and storage solutions. I previously worked at Juniper Networks, where I contributed to cloud security and on-prem storage solutions.
+I have 3 years of experience in backend development, specializing in microservices, cloud security UI, and storage solutions. At Juniper Networks, I contributed to cloud security and on-prem storage solutions, improving system efficiency and reliability.
 
-I am actively looking for new opportunities, and I would love to discuss how my experience aligns with any open roles at {company}. Please find my resume attached for your reference.
+I am actively looking for new opportunities and would love to discuss how my skills align with open roles at {company}. My expected base CTC is 25 LPA minimum. Please find my resume attached for your reference.
 
-Would it be possible to schedule a quick call? You can reach me at +91 6303665574 at your convenience.
+Would it be possible to schedule a quick call to discuss this further? You can reach me at +91 6303665574 at your convenience.
 
-Looking forward to hearing from you!
+Looking forward to your response!
 
 Best regards,
 Rakesh Peddamallu
-+91 6303665574 
++91 6303665574
 """
 
 # Set up SMTP server

@@ -8,7 +8,7 @@ EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
 # Read Excel file
-df = pd.read_excel("hr_contacts_test.xlsx")
+df = pd.read_excel("hr_contacts.xlsx")
 
 # Email content
 SUBJECT = "Could You Please Help Me with a Backend Referral? "  
@@ -47,7 +47,7 @@ for _, row in df.iterrows():
 
     # Attach resume
     with open("resume.pdf", "rb") as resume:
-        msg.add_attachment(resume.read(), maintype="application", subtype="pdf", filename="Rakesh_Resume.pdf")
+        msg.add_attachment(resume.read(), maintype="application", subtype="pdf", filename="Rakesh_Resume_Backened.pdf")
 
     try:
         server.send_message(msg)

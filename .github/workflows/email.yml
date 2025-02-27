@@ -1,6 +1,7 @@
 name: Send Weekly Emails to HRS
 
 on:
+  workflow_dispatch: # 👈 Allows manual trigger from GitHub Actions UI
   schedule:
     - cron: "*/5 * * * *" # Runs every 5 minutes
 
@@ -20,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: pip install pandas smtplib email openpyxl
 
-      - name: Run script
+      - name: Run email script
         env:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

@@ -11,19 +11,23 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 df = pd.read_excel("hr_contacts_test.xlsx")
 
 # Email content
-SUBJECT = "Looking for Job Opportunities - Backend Developer"
+SUBJECT = "Hey {name}, Could You Help Me with a Backend Opportunity?"
 BODY_TEMPLATE = """\
 Dear {name},
 
-I hope you're doing well. I am reaching out to explore any job opportunities at {company} for a Backend Developer role.
+I hope you're doing well. I'm reaching out to explore any job opportunities at {company} for a Backend Developer role.
 
-I have 2.5 years of experience in backend development, working with microservices, cloud security UI, and storage solutions. Please find my resume attached.
+I have 3 years of experience in backend development, including microservices, cloud security UI, and storage solutions. I previously worked at Juniper Networks, where I contributed to cloud security and on-prem storage solutions.
 
-Looking forward to hearing from you.
+I am actively looking for new opportunities, and I would love to discuss how my experience aligns with any open roles at {company}. Please find my resume attached for your reference.
 
-Best regards,  
-Rakesh Peddamallu  
-+91 XXXXXXXXXX  
+Would it be possible to schedule a quick call? You can reach me at +91 6303665574 at your convenience.
+
+Looking forward to hearing from you!
+
+Best regards,
+Rakesh Peddamallu
++91 6303665574 
 """
 
 # Set up SMTP server

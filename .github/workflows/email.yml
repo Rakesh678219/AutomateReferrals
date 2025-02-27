@@ -1,0 +1,27 @@
+name: Send Weekly Emails
+
+on:
+  schedule:
+    - cron: "0 10 * * 1" # Runs every Monday at 10 AM UTC (adjust as needed)
+
+jobs:
+  send-emails:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install pandas smtplib email openpyxl
+
+      - name: Run script
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python send_emails.py

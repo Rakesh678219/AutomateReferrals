@@ -8,7 +8,7 @@ EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
 # Read Excel file
-df = pd.read_excel("hr_contacts.xlsx")
+df = pd.read_excel("hr_contacts_test.xlsx")
 
 # Email content
 SUBJECT = "Could You Please Help Me with a Backend Referral? "  

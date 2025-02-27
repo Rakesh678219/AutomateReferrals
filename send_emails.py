@@ -11,7 +11,7 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 df = pd.read_excel("hr_contacts_test.xlsx")
 
 # Email content
-SUBJECT = "Hey {name}, Could You Help Me with a Backend Opportunity?"
+SUBJECT = "Could You Help Me with a Backend Opportunity?"  
 BODY_TEMPLATE = """\
 Dear {name},
 

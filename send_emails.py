@@ -15,7 +15,7 @@ SUBJECT = "Could You Please Help Me with a Backend Referral? "
 BODY_TEMPLATE = """\
 Hi {name},
 
-I hope you're doing well. I'm reaching out to explore potential Backend Developer opportunities at {company}.
+I hope you're doing well. My name is Rakesh Peddamallu, and I'm reaching out to explore potential Backend Developer opportunities at {company}.
 
 I have 3 years of experience in backend development, specializing in microservices, cloud security UI, and storage solutions. At Juniper Networks, I contributed to cloud security and on-prem storage solutions, improving system efficiency and reliability.
 
